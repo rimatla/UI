@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>reCaptcha</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <h3>Sign up</h3>
+            <hr>
+            <form action="signup.php" method="post">
+                <div class="form-group">
+                    <label for="email">Text</label>
+                    <input type="text" name="email" class="form-control" id="email" placeholder="type anything">
+                </div>
+                <div class="g-recaptcha" data-sitekey="yourDataSiteKey"></div>
+
+                <input type="submit" name="submitCaptcha" value="Sing up" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+</div>
+<!--Google reCAPTCHA-->
+<script src="https://www.google.com/recaptcha/api.js"></script>
+</body>
+</html>

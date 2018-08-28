@@ -1,0 +1,19 @@
+body {
+}
+.g-recaptcha {
+    margin-bottom: 10px;
+}
+
+.fail {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.success {
+    color: lightseagreen;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
